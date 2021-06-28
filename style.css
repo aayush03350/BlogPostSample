@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 20px;
+}
+h1 {
+    color: green;
+    margin-bottom: 20px;
+}
+h2 {
+    color: green;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.blog-post {
+    width: 75%;
+    margin: auto;
+    float: left;
+    clear: right;
+}
+.other-post {
+    /* background-color: greenyellow; */
+    width: 25%;
+    float: right;
+}
+.author-post {
+    /* background-color: yellow; */
+    border: 1px solid gray;
+    padding-top: 20px;
+}
